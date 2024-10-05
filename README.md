@@ -52,7 +52,8 @@
 - id (int, PK, auto-increment) — уникальный идентификатор теста
 - title (varchar, not null) — название теста
 - description (text) — описание теста
-- organizer_id (int, FK) — организатор теста 
+- organizer_id (int, FK) — организатор теста
+- category_id (int, FK) — идентификатор категории теста 
 - created_at (timestamp, not null) — дата создания теста
 4. TestCategory (Категория теста):
 - id (int, PK, auto-increment) — уникальный идентификатор категории
