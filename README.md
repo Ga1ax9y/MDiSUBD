@@ -33,7 +33,7 @@
     10. Сертификат (Certificate) — сертификат, выдаваемый участникам за успешное прохождение теста
 ## Схема БД
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](bd_img.png)
 
 
 ## Описание сущностей
