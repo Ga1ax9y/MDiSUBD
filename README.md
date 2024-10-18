@@ -34,7 +34,7 @@
     11. UserLog - журнал дейсвий пользователя
 ## Схема БД
 
-![App Screenshot](bd_image.png)
+![App Screenshot](bd_imageNormal.png)
 
 
 ## Описание сущностей
