@@ -1,0 +1,71 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .welcome-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    animation: fadeIn 0.8s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .welcome-card h2 {
+    margin: 0 0 10px;
+    color: #333333;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+
+  .user-name {
+    color: #007bff;
+    font-weight: bold;
+  }
+
+  .user-email {
+    color: #555555;
+    margin: 15px 0;
+    font-size: 1rem;
+  }
+
+  .logout-button {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .logout-button:hover {
+    background-color: #c82333;
+  }
+
+  .loading {
+    font-size: 1.2rem;
+    color: #555555;
+    text-align: center;
+    margin-top: 20px;
+  }

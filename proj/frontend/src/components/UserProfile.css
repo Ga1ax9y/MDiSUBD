@@ -1,0 +1,128 @@
+.userProfile-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .userProfile-heading {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .userProfile-error {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .userProfile-editForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .userProfile-formGroup {
+    margin-bottom: 15px;
+  }
+
+  .userProfile-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #555;
+  }
+
+  .userProfile-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .userProfile-input:focus {
+    border-color: #5b9bd5;
+    outline: none;
+  }
+
+  .userProfile-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .userProfile-button:hover {
+    background-color: #45a049;
+  }
+
+  .userProfile-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .userProfile-info p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+  }
+
+  .userProfile-info button {
+    background-color: #f0ad4e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .userProfile-info button:hover {
+    background-color: #ec971f;
+  }
+
+  .userProfile-testResults {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .userProfile-testResultItem {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .userProfile-testResultItem p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+
+  .userProfile-testResultItem strong {
+    color: #333;
+  }
+
+  .userProfile-noResults {
+    font-size: 1.1rem;
+    color: #555;
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+  }
